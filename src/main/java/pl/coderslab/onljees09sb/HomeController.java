@@ -19,5 +19,9 @@ public class HomeController {
         return "aaaa";
     }
 
+    @GetMapping("/about")
+    @ResponseBody
+    public String about() { return "Here you can find some details for logged users"; }
+
 
 }
